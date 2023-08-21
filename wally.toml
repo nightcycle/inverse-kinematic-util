@@ -2,10 +2,16 @@
 name = "nightcycle/package"
 description = "A package!"
 version = "0.1.0"
-authors = ["CJ Oyer <coyer@nightcycle.us>"]
+authors = [ "CJ Oyer <coyer@nightcycle.us>",]
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
-exclude = ["Packages", ".vscode"]
+exclude = [ "Packages", ".vscode",]
 
 [dependencies]
-Maid = "nightcycle/maid@^1.1.4"
+GeometryUtil = "nightcycle/geometry-util@2.0.1"
+CFrameUtil = "nightcycle/cframe-util@1.0.0"
+Maid = "nightcycle/maid@1.1.4"
+Spring = "nightcycle/spring@1.0.0"
+CurveUtil = "nightcycle/curve-util@1.0.0"
+TableUtil = "nightcycle/table-util@1.1.0"
+Sketcher = "nightcycle/sketcher@1.1.2"
